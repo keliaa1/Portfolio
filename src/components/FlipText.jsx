@@ -27,7 +27,8 @@ export const LayoutTextFlip = ({
       </motion.span>
       <motion.span
         layout
-        className="relative w-fit overflow-hidden border-none font-sans text-sm font-bold tracking-tight text-white shadow-sm  shadow-black/10  drop-shadow-lg md:text-4xl dark:shadow-sm dark:ring-1 dark:shadow-white/10 dark:ring-white/10">
+        className="relative w-fit overflow-hidden font-sans text-sm font-bold tracking-tight text-white md:text-4xl">
+
         <AnimatePresence mode="popLayout">
           <motion.span
             key={currentIndex}
