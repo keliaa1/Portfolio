@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 import Card from "../components/Card";
+import { Globe } from "../components/Globe";
+
 
 const About = () => {
   const grid2container= useRef();
@@ -80,7 +82,15 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="grid-black-color grid-3"></div>
+        <div className="grid-black-color grid-3">
+          <div className="z-10 w-full">
+            <p className="headtext">Timezone</p>
+            <p className="subtext">I am based in Kigali and open to work anywhere</p>
+          </div>
+          <figure className="absolute left-[30%] top-[10%]">
+            <Globe />
+          </figure>
+        </div>
         <div className="grid-special-color grid-4"></div>
         <div className="grid-default-color grid-5"></div>
       </div>

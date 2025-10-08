@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-three/drei": "^10.7.6",
     "@tailwindcss/vite": "^4.1.12",
+    "cobe": "^0.6.5",
     "motion": "^12.23.22",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
