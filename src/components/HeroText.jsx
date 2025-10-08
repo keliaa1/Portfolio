@@ -44,7 +44,7 @@ const HeroText = () => {
           >
             <LayoutTextFlip
               words={words}
-              className="font-black  text-white text-8xl"
+              className="font-black text-white text-8xl"
             />
           </motion.div>
           <motion.p 
