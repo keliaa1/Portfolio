@@ -1,13 +1,14 @@
 import React, { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/Globe";
+import CopyEmailButton from "../components/CopyEmailButton";
 
 
 const About = () => {
   const grid2container= useRef();
   return (
     <section className="c-space section-spacing">
-      <h1>About me</h1>
+      <h1 className="headtext font-black text-5xl">About me</h1>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         <div className="flex items-end grid-default-color grid-1">
           <img
@@ -91,7 +92,10 @@ const About = () => {
             <Globe />
           </figure>
         </div>
-        <div className="grid-special-color grid-4"></div>
+        <div className="grid-special-color grid-4 size-full text-center  ">
+          <p className="text-center headtext pt-15">Do you want to start a project together? </p>
+          <CopyEmailButton />
+        </div>
         <div className="grid-default-color grid-5"></div>
       </div>
     </section>
