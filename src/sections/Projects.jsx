@@ -10,6 +10,8 @@ const Projects = () => {
         <div className='bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full'> </div>
         {myProjects.map((project)=>(
             <Project key={project.id} {...project} />
+
+            // remember to make the project images come well
         ))}
     </section>
   )

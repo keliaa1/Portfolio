@@ -12,27 +12,27 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/public/icons/sky.jpg",
     tags: [
       {
         id: 1,
         name: "C#",
-        path: "/assets/logos/csharp.svg",
+        path: "../public/framework/php.svg",
       },
       {
         id: 2,
         name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        path: "/public/frameworks/php.svg",
       },
       {
         id: 3,
         name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        path: "/public/frameworks/php.svg",
       },
       {
         id: 4,
         name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        path: "/public/frameworks/tailwind.svg",
       },
     ],
   },
@@ -49,7 +49,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/public/frameworks/php.svg",
     tags: [
       {
         id: 1,
@@ -86,7 +86,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/public/icons/sky.jpg",
     tags: [
       {
         id: 1,
@@ -123,7 +123,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/public/icons/sky.jpg",
     tags: [
       {
         id: 1,
@@ -160,7 +160,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/public/icons/sky.jpg",
     tags: [
       {
         id: 1,
@@ -197,12 +197,12 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/public/icons/sky.jpg",
     tags: [
       {
         id: 1,
         name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        path: "/framework/php.svg",
       },
       {
         id: 2,
