@@ -1,12 +1,24 @@
 import React, { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
 
-const Project = ({ title, description, subDescription, href, image, tags }) => {
+const Project = ({
+  title,
+  description,
+  subDescription,
+  href,
+  image,
+  tags,
+  setPreview,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className="flex-wrap items-center py-10 justify-between space-y-14 sm:flex sm:space-y-0">
-        <div>
+      <div
+        className="flex-wrap items-center py-10 justify-between space-y-14 sm:flex sm:space-y-0"
+        onMouseEnter={() => setPreview(image)}
+        onMouseLeave={() => setPreview(null)}
+      >
+        <div >
           <h2 className="text-4xl">{title}</h2>
           <div className="flex gap-5 text-sand mt-2">
             {tags.map((tag) => (
