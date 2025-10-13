@@ -49,7 +49,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/framework/php.svg",
+    image: "/icons/baco.jpg",
     tags: [
       {
         id: 1,
@@ -86,7 +86,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/icons/sky.jpg",
+    image: "/icons/orange.jpg",
     tags: [
       {
         id: 1,
@@ -123,7 +123,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/icons/sky.jpg",
+    image: "/icons/planet1.jpg",
     tags: [
       {
         id: 1,
@@ -197,7 +197,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/icons/sky.jpg",
+    image: "/icons/planetreal.jpg",
     tags: [
       {
         id: 1,
