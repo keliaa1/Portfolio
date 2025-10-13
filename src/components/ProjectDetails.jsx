@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import React from "react";
 
 const ProjectDetails = ({
@@ -11,7 +12,11 @@ const ProjectDetails = ({
 }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
-      <div className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10">
+      <motion.div
+        className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+      >
         <button
           onClick={onClose}
           className="absolute p-2 rounded-sm top-5 right-5 bg-midnight hover:bg-gray-500"
@@ -39,9 +44,21 @@ const ProjectDetails = ({
                 />
               ))}
             </div>
+            <a
+              href=""
+              className="inline-flex items-center gap-1 font-medium hover-animation cursor-pointer"
+            >
+              View more{" "}
+              <img
+                src="public/icons/up-arrow.svg"
+                className="w-6 bg-white rounded-md"
+                alt="arrow"
+                href={href}
+              />
+            </a>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
