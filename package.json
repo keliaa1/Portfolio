@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^10.7.6",
     "@tailwindcss/vite": "^4.1.12",
     "cobe": "^0.6.5",
