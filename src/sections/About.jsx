@@ -7,7 +7,9 @@ import { Frameworks } from "../components/Frameworks";
 const About = () => {
   const grid2container = useRef();
   return (
+  
     <section className="c-space section-spacing">
+      
       <h1 className="headtext font-black text-5xl">About me</h1>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         <div className="flex items-end grid-default-color grid-1">
