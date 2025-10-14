@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import Alert from "../components/Alert";
 const Contact = () => {
   const [formData, setformData] = useState({
     name: "",
@@ -8,9 +9,18 @@ const Contact = () => {
     message: "",
   });
   const [loading, setLoading] = useState(false);
+  const [showAlert, setShowAlert] = useState(false);  
+  const [alertType, setAlertType] = useState("success");
+  const [alertMessage, setAlertMessage] = useState("");
   const handleChange = (e) => {
     setformData({ ...formData, [e.target.name]: e.target.value });
   };
+
+  const showAlertMessage = (type, message)=>{
+    setAlertType(type);
+    setAlertMessage(message);
+    setShowAlert(true);
+  }
   const handleSubmit = (e)=>{
     e.preventDefault();
     setLoading(true);
@@ -23,8 +33,10 @@ const Contact = () => {
         to_email: "simbikelia@gmail.com",
         message: formData.message,
     }, "uiGSthxnRKhKu1qYE")
-    setLoading(false);
-    alert("Thank you. I will get back to you as soon as possible.");
+    showAlertMessage("success", "Message sent successfully");
+    setTimeout(()=>{
+      setShowAlert(false);
+    }, 5000)
     setformData({
         name: "",
         email: "",
@@ -33,14 +45,21 @@ const Contact = () => {
 } catch (error) {
     setLoading(false);
     console.log(error);
-    alert("Something went wrong.");
+    showAlertMessage("error", "Something went wrong");
+    setTimeout(()=>{
+      setShowAlert(false);
+    }, 5000)
 }
     //service_hv7tvqx
     //template_utnk5iw
   }
   return (
     <section className="relative flex items-center c-space section-spacing">
+      {showAlert &&<Alert type={alertType} text={alertMessage} />
+      }
+      
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
+
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's connect!</h2>
           <p className="font-normal text-neutral-400">
