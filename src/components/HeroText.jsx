@@ -32,7 +32,7 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{ delay: 1 }}
-            className="text-5xl font-medium text-neutral-300"
+            className="text-7xl font-medium text-neutral-300 mt-3 mb-6"
           >
             I am a {" "}
           </motion.p>
@@ -52,7 +52,7 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{delay: 1.8}}
-          className="text-2xl pt-3 font-medium text-neutral-300">
+          className="text-2xl pt-3 font-medium text-neutral-300 mt-6">
             Based in Rwanda 🇷🇼
           </motion.p>
         </div>

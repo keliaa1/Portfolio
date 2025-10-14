@@ -225,19 +225,19 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "Github",
+    href: "https://github.com/keliaa1",
+    icon: "public/logos/github.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
-    icon: "/assets/socials/linkedIn.svg",
+    href: "https://www.linkedin.com/in/kelia-simbi-6ab11132b/",
+    icon: "public/logos/linkedin.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    href: "https://www.instagram.com/_simbiii__/",
+    icon: "public/logos/instagram.svg",
   },
 ];
 
