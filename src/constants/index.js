@@ -243,36 +243,34 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
+    title: "Apade Primary School",
+    job: "Top class perfomer",
+    date: "2014-2020",
+    contents: [
+      "My hard work and curiosity helped me build a strong foundation in academics, especially in science and mathematics.",
+      "This early achievement motivated me to keep learning, set high goals, and develop the discipline that continues to guide me today.",
+    ],
+  },
+  {
+    title: "Maranyundo Girls School",
+    job: "Among top students and O'level Head girl",
     date: "2021-2023",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "I studied at Maranyundo Girls School, where I developed a strong academic foundation and leadership skills.",
+      "During my time there, I was among the top-performing students and earned recognition for my dedication and discipline.",
+      "I also served as the Head Girl, a role that helped me build confidence, teamwork, and communication skills while representing and supporting my fellow students.",
+      "My experience at Maranyundo Girls School shaped my commitment to excellence and inspired me to continue pursuing leadership and innovation in technology.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Rwanda Coding Academy",
+    job: "SPe",
+    date: "2024-Present",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "I am a student at Rwanda Coding Academy, where I study software engineering, embedded systems, and cybersecurity.",
+      "I learn programming languages like Python, C, and JavaScript to build real-world projects and strengthen my problem-solving skills.",
+      "At RCA, I work on team-based projects that combine creativity and technology to create practical solutions.",
+      "The academy helps me grow as an innovative thinker and future tech leader, ready to contribute to Rwanda’s digital future."
     ],
   },
 ];
