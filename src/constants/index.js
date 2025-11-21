@@ -243,34 +243,18 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Apade Primary School",
-    job: "Top class perfomer",
-    date: "2014-2020",
-    contents: [
-      "My hard work and curiosity helped me build a strong foundation in academics, especially in science and mathematics.",
-      "This early achievement motivated me to keep learning, set high goals, and develop the discipline that continues to guide me today.",
-    ],
+    title: "3d designer",
+    job: "Blink Technologies",
+    date: "2025-present",
+    contents:
+      "I create interactive 3D visuals and build clean, responsive frontend interfaces for Blink Tech’s digital products. I transform ideas into functional 3D assets and modern UI experiences, ensuring smooth performance and engaging user interaction.",
   },
   {
-    title: "Maranyundo Girls School",
-    job: "Among top students and O'level Head girl",
-    date: "2021-2023",
+    title: "Frontend developer",
+    job: "Freelance",
+    date: "2025-present",
     contents: [
-      "I studied at Maranyundo Girls School, where I developed a strong academic foundation and leadership skills.",
-      "During my time there, I was among the top-performing students and earned recognition for my dedication and discipline.",
-      "I also served as the Head Girl, a role that helped me build confidence, teamwork, and communication skills while representing and supporting my fellow students.",
-      "My experience at Maranyundo Girls School shaped my commitment to excellence and inspired me to continue pursuing leadership and innovation in technology.",
-    ],
-  },
-  {
-    title: "Rwanda Coding Academy",
-    job: "SPe",
-    date: "2024-Present",
-    contents: [
-      "I am a student at Rwanda Coding Academy, where I study software engineering, embedded systems, and cybersecurity.",
-      "I learn programming languages like Python, C, and JavaScript to build real-world projects and strengthen my problem-solving skills.",
-      "At RCA, I work on team-based projects that combine creativity and technology to create practical solutions.",
-      "The academy helps me grow as an innovative thinker and future tech leader, ready to contribute to Rwanda’s digital future."
+      "design and build responsive, user-friendly web interfaces for clients. My work focuses on clean UI, smooth interactions, and modern web technologies to deliver fast, accessible, and visually appealing digital experiences tailored to each client’s needs.",
     ],
   },
 ];
