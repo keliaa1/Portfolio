@@ -1,12 +1,66 @@
-# React + Vite
+ 3D Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, immersive developer portfolio built with **React**, **React Three Fiber**, **Aceternity UI**, and **Magic UI**. This project showcases interactive 3D scenes, smooth animations, and a clean, futuristic design to highlight skills, projects, and personality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🌀 **3D Scenes & Animations** using React Three Fiber  
+- 🎨 **Beautiful UI components** from Aceternity and Magic UI  
+- 💫 Smooth transitions, motion effects, and micro-interactions  
+- 📱 Fully responsive across devices  
+- 🧩 Modular & reusable component architecture  
+- ⚡ Fast performance and optimized rendering  
+- 🌐 Sections for hero, projects, skills, about, and contact  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **React Three Fiber** (3D rendering)
+- **@react-three/drei** helpers
+- **Aceternity UI**
+- **Magic UI**
+- **Tailwind CSS**
+- **Framer Motion** (if used)
+- **Vite / Create React App / Next.js** (depending on what you used)
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/keliaa1/Portfolio.git
+Install dependencies:
+bash
+Copy code
+npm install
+
+Run the dev server:
+bash
+Copy code
+npm run dev
+Open:
+
+http://localhost:5173
+(or 3000 depending on your setup)
+
+Build:
+bash
+Copy code
+npm run build
+Deploy according to your hosting provider's instructions.
+
+🤝 Contributing
+Contributions are welcome!
+Open an issue or submit a pull request for suggestions or improvements.
+
+📜 License
+This project is licensed under the MIT License.
+
+⭐ Support
+If you like this portfolio, please give the repository a ⭐!
