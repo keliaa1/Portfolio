@@ -1,12 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
-import { motion } from 'motion/react'
-
 function Navigation(){
     return(
         <ul className='nav-ul'>
             <li className='nav-li'>
-                <a className='nav-link' href="">Home</a>
+                <a className='nav-link' href="/">Home</a>
             </li>
             <li className='nav-li'>
                 <a className='nav-link' href="">About</a>
@@ -21,7 +19,7 @@ function Navigation(){
     )
 }
 
-const Navbar = () => { 
+const Navbar = () => {
        const [isOpen, setIsOpen] = useState(false);
   return (
 
@@ -46,7 +44,7 @@ const Navbar = () => {
             </nav>
 
         </motion.div>)}
-      
+
     </div>
   )
 }

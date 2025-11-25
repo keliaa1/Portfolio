@@ -1,7 +1,7 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Orthoverse",
     description:
       "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
     subDescription: [
@@ -38,7 +38,7 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Mento",
     description:
       "A secure authentication and authorization system using Auth0 for seamless user management.",
     subDescription: [
@@ -75,7 +75,7 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "SimbiSpace",
     description:
       "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
     subDescription: [
@@ -112,7 +112,7 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "WaterWallet",
     description:
       "A lightweight C++ game engine designed for 2D and 3D game development.",
     subDescription: [
@@ -147,80 +147,7 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/icons/sky.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/framework/php.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/logos/next-removebg-preview.png",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/framework/tailwind.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/logos/next-removebg-preview.png",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/icons/planetreal.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/framework/php.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/logos/next-removebg-preview.png",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/logos/next-removebg-preview.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/framework/tailwind.svg",
-      },
-    ],
-  },
+
 ];
 
 export const mySocials = [

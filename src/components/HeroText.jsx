@@ -26,7 +26,7 @@ const HeroText = () => {
         >
           Hi, I'm Kelia
         </motion.h1>
-        <div className="flex flex-col items-start">
+        <div className="flex items-start gap-x-5">
           <motion.p
             variants={variants}
             initial="hidden"
@@ -41,31 +41,25 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{delay: 1.5}}
+            className="text-7xl font-medium text-neutral-300 mt-2 mb-6"
           >
             <LayoutTextFlip
               words={words}
               className="font-black text-white text-8xl"
             />
           </motion.div>
-          <motion.p 
-          variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{delay: 1.8}}
-          className="text-2xl pt-3 font-medium text-neutral-300 mt-6">
-            Based in Rwanda 🇷🇼
-          </motion.p>
+
         </div>
       </div>
       <div className="flex flex-col space-y-6 md:hidden">
-        <motion.p 
+        <motion.p
         variants={variants}
             initial="hidden"
             animate="visible"
             transition={{delay: 1}}
         className="text-4xl font-medium text-center">Hi, I'm Kelia!</motion.p>
         <div>
-          <motion.p 
+          <motion.p
           variants={variants}
             initial="hidden"
             animate="visible"
@@ -82,13 +76,13 @@ const HeroText = () => {
               className="font-black text-center text-white text-5xl"
             />
           </motion.div>
-          <motion.p 
+          <motion.p
           variants={variants}
             initial="hidden"
             animate="visible"
             transition={{delay: 1.8}}
           className="text-md text-center font-black text-neutral-300">
-            Based in Rwanda 
+            Based in Rwanda
           </motion.p>
         </div>
       </div>
