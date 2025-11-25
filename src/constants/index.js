@@ -49,7 +49,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/icons/baco.jpg",
+    image: "/icons/image.png",
     tags: [
       {
         id: 1,

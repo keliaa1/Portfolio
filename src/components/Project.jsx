@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
+import { motion } from "motion/react";
 
 const Project = ({
   title,
@@ -12,13 +13,18 @@ const Project = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.7 }}
+    >
       <div
         className="flex-wrap items-center py-10 justify-between space-y-14 sm:flex sm:space-y-0"
         onMouseEnter={() => setPreview(image)}
         onMouseLeave={() => setPreview(null)}
       >
-        <div >
+        <div>
           <h2 className="text-4xl">{title}</h2>
           <div className="flex gap-5 text-sand mt-2">
             {tags.map((tag) => (
@@ -46,7 +52,7 @@ const Project = ({
           onClose={() => setIsOpen(false)}
         />
       )}
-    </>
+    </motion.div>
   );
 };
 

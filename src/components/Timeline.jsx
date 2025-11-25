@@ -24,7 +24,14 @@ export const Timeline = ({ data }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div className="c-space section-spacing" ref={containerRef}>
+    <motion.div
+      className="c-space section-spacing"
+      ref={containerRef}
+      initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.7 }}
+    >
       <h2 className="text-heading">My work Experience</h2>
       <div ref={ref} className="relative pb-20">
         {data.map((item, index) => (
@@ -49,10 +56,9 @@ export const Timeline = ({ data }) => {
                 <h3>{item.job}</h3>
               </div>
               {item.contents.map((content, index) => (
-                <p
-                  className="mb-3 font-nomral text-neutral-400"
-                  key={index}
-                >{content}</p>
+                <p className="mb-3 font-nomral text-neutral-400" key={index}>
+                  {content}
+                </p>
               ))}
             </div>
           </div>
@@ -72,6 +78,6 @@ export const Timeline = ({ data }) => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
