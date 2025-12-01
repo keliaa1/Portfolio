@@ -86,7 +86,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/icons/orange.jpg",
+    image: "/icons/simbi.png",
     tags: [
       {
         id: 1,
